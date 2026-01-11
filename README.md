@@ -1,2 +1,2 @@
-fullstack open
+fullstackopen /
 web apps
