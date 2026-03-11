@@ -15,7 +15,7 @@ function App() {
     setCounter(counter + 1)
     counterRegular = counterRegular + 1;
     let myDiv2 = document.getElementById("myDiv2");
-    // counter++;    
+    // counter++;
     myDiv2.innerText = `The counterRegular in myDiv2 is at ${counterRegular}`;
     // console.log(`Counter is at ${counter}`);
   }
@@ -26,6 +26,7 @@ function App() {
       <Button onClickFunc={clickMe} label="Increase Count" />
       <Button onClickFunc={()=>{setCounter(counter-1)}} label="Decrease Count" />
       <Button label = "reset" onClickFunc={() => {setCounter(0)}} />
+        
       <div id="myDiv2">The counterRegular in myDiv2 is at {counterRegular}</div>
       <Display counter = {counter} />
     </>
